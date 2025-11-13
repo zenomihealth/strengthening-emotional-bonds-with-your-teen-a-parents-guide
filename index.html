@@ -17,7 +17,13 @@
       window.resizeTo(screen.width, screen.height);
     </script>
 
-    <script type="text/javascript" src="allowed-options.js"></script>
+   <script type="text/javascript">
+  window.allowedOptions = function() {
+    return {
+      outsideDriver: true
+    };
+  };
+</script>
 
     <script id="__ENTRY__" type="application/json">
       { ".js": ["rise/b608fbfb.js"], ".css": ["sandbox/4adfab46.css"] }
